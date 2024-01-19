@@ -1,0 +1,57 @@
+name: osc
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.3.9
+  get: ^4.6.6
+  liquid_swipe: ^3.1.0
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/logomain.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon/logomain.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/icon/logomain.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/logomain.png"
+
+flutter_native_splash:
+  color: "#f7f6f5"
+  color_dark: "#272727"
+  image: "assets/images/splash.png"
+  image_dark: "assets/images/splash.png"
+  web: false
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icon/
