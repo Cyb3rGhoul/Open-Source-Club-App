@@ -16,6 +16,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: OSCAppTheme.lightTheme,
       darkTheme: OSCAppTheme.darkTheme,
+      defaultTransition: Transition.leftToRightWithFade,
+      transitionDuration: const Duration(milliseconds: 500),
       themeMode: ThemeMode.system,
       home: SplashScreen(),
     );

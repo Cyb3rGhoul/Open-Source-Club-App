@@ -9,4 +9,10 @@ const String oOnBoardingPage2Image = "assets/images/onboarding2.png";
 const String oOnBoardingPage3Image = "assets/images/onboarding3.png";
 
 // -- Welcome Screen -- // 
-const String oWelcomeImage = "assets/images/welcome-image.png";
+const String oWelcomeImage = "assets/images/welcome.png";
+
+// -- Login Screen -- //
+const String oGoogleIcon = "assets/images/google-logo.png";
+
+// -- Forget Password Screen -- //
+const String oForgetPasswordImage = "assets/images/email_forget.png";
